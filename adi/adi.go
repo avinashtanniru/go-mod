@@ -16,7 +16,7 @@ type Group struct {
 	Children   []string           `bson:"children"`
 	Datacenter string             `bson:"datacenter"`
 	Name       string             `bson:"name"`
-	Hosts	   []string			  `bson:"hosts"`
+	Hosts	   []string	      `bson:"hosts"`
 	Vars       map[string]interface{}
 }
 
